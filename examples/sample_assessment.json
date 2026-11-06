@@ -1,0 +1,25 @@
+{
+  "organization": "Example Enterprise (fictional)",
+  "domains": {
+    "cloud_migration": [
+      {"question": "Workloads and dependencies are inventoried", "score": 1, "owner": "Cloud team", "evidence": "Inventory draft"},
+      {"question": "Migration waves and rollback criteria are defined", "score": 0, "owner": "Platform team"}
+    ],
+    "application_modernization": [
+      {"question": "Service boundaries and incremental cutover are defined", "score": 1, "owner": "Application team"},
+      {"question": "Contract and regression tests cover critical paths", "score": 2, "owner": "QA team"}
+    ],
+    "custom_software": [
+      {"question": "API contracts and ownership are documented", "score": 2, "owner": "Integration team"},
+      {"question": "CI/CD includes security and quality checks", "score": 1, "owner": "Engineering team"}
+    ],
+    "ai_infrastructure": [
+      {"question": "Inference latency and throughput requirements are measured", "score": 0, "owner": "ML platform team"},
+      {"question": "Model serving telemetry and capacity limits are defined", "score": 1, "owner": "ML platform team"}
+    ],
+    "network_optimization": [
+      {"question": "End-to-end latency and error budgets are documented", "score": 1, "owner": "Network team"},
+      {"question": "Failover and network observability are tested", "score": 2, "owner": "SRE team"}
+    ]
+  }
+}
